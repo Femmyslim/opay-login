@@ -6,7 +6,7 @@ import Flag from "../images/Flag.jpg"
 function Login() {
     return(
         <main className="container font-Mulish w-[47rem] h-[100vh] px-10 mx-[19rem]">
-            <nav className="flex justify-between py-4 items-center text-[#1dcfa2] text-[2rem] hover:transition-y">
+            <nav className="flex justify-between py-4 items-center text-[#1dcfa2] text-[2rem]">
                 <FaLessThan/>
                 <span className="bg-#ffffff rounded-full font-semibold">
                 <p>Login</p>
@@ -50,10 +50,10 @@ function Login() {
                         style={{border: "none"}}
                         required/>
                     </div>
-                    <button className="btn ml-15 items-center text-[#f7e4cd] bg-[#8497a4] w-[40rem] h-[4rem] text-[20px] font-bold mt-[4rem] rounded-xl hover:-transition-y-1 delay-50">Confirm</button>
+                    <button type="button" className="btn ml-15 items-center text-[#f7e4cd] bg-[#8497a4] w-[40rem] h-[4rem] text-[20px] font-bold mt-[4rem] rounded-xl hover:-translate-y-1 duration-700">Confirm</button>
                     <br />
                     <br />
-                    <button className="btn ml-15 text-[#ffffff] bg-[#1dcf9f] w-[40rem] h-[4rem] text-[20px] font-bold rounded-xl transition-all" onClick="hover:transition ease-in-out duration-400">Register</button>
+                    <button className="btn ml-15 text-[#ffffff] bg-[#1dcf9f] w-[40rem] h-[4rem] text-[20px] font-bold rounded-xl hover:-translate-y-1 duration-700">Register</button>
                     
                 </form>
                 
